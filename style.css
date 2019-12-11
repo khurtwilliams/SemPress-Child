@@ -1,0 +1,48 @@
+/*
+Theme Name: SemPress Child
+Theme URI: https://github.com/pfefferle/SemPress
+Template: sempress
+Author: Matthias Pfefferle
+Author URI: http://notiz.blog/projects/sempress/
+Description: SemPress is an extremely lightweight, responsive theme designed to show off your posts, quotes, and images. SemPress supports multiple post formats, widgets, and the option to upload a custom header or background image. The theme is based on HTML5 mixed with microformats, microformats v2 and microdata (Schema.org).
+Tags: custom-menu,custom-colors,custom-header,custom-background,custom-logo,sticky-post,microformats,rtl-language-support,translation-ready,full-width-template,post-formats,threaded-comments,right-sidebar,theme-options,two-columns,one-column,editor-style,featured-images,blog,news
+Version: 1.5.11.1546035968
+Updated: 2018-12-28 17:26:08
+
+*/
+
+@media (min-width: 960px) {
+	.single-column #page { width:960px }
+}
+
+#primary {
+ float: left;
+ width: 960px;
+}
+
+#page {
+ display: block;
+ margin: 0 auto;
+ position: relative;
+ width: 960px;
+}
+
+.entry-content,
+.entry-summary { 
+	font-size: 1.2em;
+	line-height: 27px;
+	margin-bottom: 34px;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption,
+.entry-media figcaption {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9em;
+	line-height: 2;
+	/* color: #777; */
+}
